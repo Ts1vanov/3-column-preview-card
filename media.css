@@ -1,0 +1,9 @@
+@media only screen and (max-width: 375px) {
+    .wrapper {
+        display: list-item;
+        margin: 10% 20%;
+    }
+    .card {
+        width: fit-content;
+    }
+  }

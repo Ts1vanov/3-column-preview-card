@@ -1,0 +1,77 @@
+:root {
+    /* primary colors */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);   
+    --very-dark-cyan:hsl(179, 100%, 13%);
+
+    /* netural colors*/
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --light-gray: hsl(0, 0%, 95%);
+    --button:hsla(0, 0%, 100%, 0);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: lightgray;
+}
+
+.wrapper {
+    width: fit-content;
+    margin: auto;
+    margin: 10% 20%;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card {
+    padding: 3rem;
+    width: 30%;
+}
+.card h1 {
+    margin-top: 3rem;
+    font-family: 'Big Shoulder Display', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.card p {
+    height: 14rem;
+    margin-top: 3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: var(--transparent-white);
+    font-size: 0.9375em;
+    line-height: 1.5em;
+}
+.card button {
+    padding: 1.125rem 3rem;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.card button:hover {
+    cursor: pointer;
+}
+
+.card-1 {
+    background-color: var(--bright-orange);
+}
+.card-2 {
+    background-color: var(--dark-cyan);
+}
+.card-3 {
+    background-color: var(--very-dark-cyan);
+}
+
+.button-1 {
+    color: var(--bright-orange);
+}
+.button-2 {
+    color: var(--dark-cyan);
+}
+.button-3 {
+    color: var(--very-dark-cyan);
+}
